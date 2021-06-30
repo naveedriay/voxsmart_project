@@ -15,5 +15,11 @@
       When I move mouse over cryptocurrencies link
       Then make sure dropdown_menu_crypto is visible
       When I click the crypto_menu_FiatRanking link
-      Then I successfully landed on FiatRankings page
+      Then I successfully landed on FiatsCompanyRankings page
       And the title of page reads "Bitcoin Compared To The Largest Fiat Currencies In The World by Market Cap"
+
+      When I move mouse over cryptocurrencies link
+      Then make sure dropdown_menu_crypto is visible
+      When I click the crypto_menu_recentlyAdded link
+      Then I successfully landed on RecentlyAddedCurrencies page
+      And the title of page reads "New Cryptocurrencies"
