@@ -28,4 +28,5 @@ Dependencies include:
    <code> mvn clean -U install </code>
 
 - Now after the test build complete, you can see the output reports under
-     VoxSmart Project\target\cucumber-reports\index.html
+
+     <code>VoxSmart Project\target\cucumber-reports\index.html</code>
